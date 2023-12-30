@@ -1,0 +1,140 @@
+@font-face {
+  font-family: Poppins;
+  src: url("/fonts/Poppins/Poppins-Regular.ttf");
+  font-weight: 400;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: Poppins;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  transition: box-shadow ease 0.2s;
+}
+
+html {
+  height: 100%;
+}
+html.dark {
+  background-color: rgb(30, 32, 35);
+  color: rgb(var(--font-color));
+}
+
+body {
+  height: 100%;
+}
+
+/* flex垂直居中类 */
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* hover动效类 */
+.move_down {
+  transform: translate(0, 4px);
+}
+.scale_up {
+  transform: scale(1.1);
+}
+
+/* 以动态添加类的方式切换主题颜色 */
+.theme-color-changer {
+  color: #000;
+  background-color: #fff;
+}
+html.dark .theme-color-changer {
+  color: #fff;
+  background-color: rgb(30, 32, 35);
+}
+
+/* 媒体查询 */
+@media only screen and (min-width: 598px) {
+  .menu-btn {
+    display: none !important;
+  }
+}
+@media only screen and (max-width: 598px) {
+  .nav-link {
+    display: none !important;
+  }
+  .nav-item h3 {
+    font-size: 1.14rem !important;
+  }
+}
+
+/* drawer组件的自定义类 - 只能放到全局CSS文件中才有效 */
+.drawer_body {
+  border-radius: 0 0 24px 24px !important;
+}
+.el-drawer__header {
+  margin-bottom: 0rem !important;
+}
+.el-drawer__body {
+  padding-top: 0 !important;
+}
+.el-tabs__nav-scroll {
+  display: flex;
+  justify-content: center;
+}
+
+/* el-divider 宽度调节 */
+.el-divider--horizontal {
+  width: 90% !important;
+  margin: 24px auto !important;
+}
+
+/* 设置变量 */
+:root {
+  --border-radius: 12px;
+  --font-color: 44, 62, 80;
+  --background-color: 255, 255, 255;
+  --footer-color: 238, 242, 245;
+  --link-color: 26, 92, 255;
+}
+
+html.dark {
+  --font-color: 255, 255, 255;
+  --background-color: 30, 32, 35;
+  --footer-color: 20, 20, 20;
+}
+
+/* 调整vuepress-markdown-body在深色模式下的样式 */
+html.dark .vuepress-markdown-body {
+  background-color: rgb(30, 32, 35);
+  color: rgb(235, 222, 222);
+}
+
+html.dark .vuepress-markdown-body code {
+  color: #58a6ff;
+  background-color: rgba(118, 118, 118, 0.2);
+}
+
+html.dark .vuepress-markdown-body pre code {
+  color: #fff;
+  background-color: transparent;
+}
+
+html.dark .vuepress-markdown-body blockquote {
+  color: rgb(235, 222, 222);
+  border-left: 0.2rem solid #727e8a;
+}
+
+/* 调整post-toc深色模式的颜色 */
+html.dark .container .toc {
+  border-left: 3px solid #2c2c2c;
+  color: #e3e3e3b7;
+}
+html.dark .container .toc ul li:hover {
+  background-color: #c960604a;
+  border-left: 3px solid #d6494b42;
+}
+html.dark .container .toc ul .toc-choosen {
+  background-color: rgba(118, 118, 118, 0.2);
+  color: #58a6ff;
+}

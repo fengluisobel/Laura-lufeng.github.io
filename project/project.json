@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "title": "TBA - Visualization for Reinsurance Survey Points - Automated Underwriting",
+      "img": "CPCU.png",
+      "description": "Peak Exposure的位置，选取top10的仓库和楼宇，转换地址为谷歌地图经纬度，合并需要查勘的位点和经纬度并转为XML，在google-earth中显示",
+      "link": ""
+    },
+    {
+      "title": "TBA - Data for ESG - Extent and melting of the Arctic Ice Cap",
+      "img": "北极冰盖.png",
+      "description": "描绘北极冰盖的边缘，自动抠图并裁剪，强调边缘，对历年数据进行叠加组成动态图，同时展示历年CO2排放总量-以展示它们的关系",
+      "link": ""
+    },
+    {
+      "title": "Text Mining for Automated Contract",
+      "img": "IUA.png",
+      "description": "Crawl the external data source of the relevant insurance industry wording research organizations (IUA and LMA)",
+      "link": "https://www.iua.co.uk/"
+    }
+  ]
+}
