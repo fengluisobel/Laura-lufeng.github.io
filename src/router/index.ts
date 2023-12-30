@@ -5,7 +5,7 @@ import Projects from "../views/Projects.vue";
 import About from "../views/About.vue";
 import ViewPost from "@/views/ViewPost.vue";
 import NotFound from "../views/NotFound.vue";
-const history = createWebHashHistory();
+const history = createWebHashHistory('/');
 
 // vite在开发模式下是路由懒加载的
 
