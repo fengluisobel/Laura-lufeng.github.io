@@ -9,12 +9,16 @@ import { plugin as mdPlugin, Mode } from "vite-plugin-markdown";
 import viteCompression from "vite-plugin-compression";
 
 // https://vitejs.dev/config/
-// https://blog.csdn.net/weixin_44717047/article/details/120113869
+
 export default defineConfig({
   server: {
     open: true,
   },
-  base:"/",
+  base:"./",
+  build: {
+    // 打包文件的输出目录
+    outDir: 'docs' 
+  },
   plugins: [
     vue(),
     AutoImport({
@@ -44,6 +48,7 @@ export default defineConfig({
 
   build: {
     rollupOptions: {
+      
       output: {
         // 梳理分流原dist/assets目录
         chunkFileNames: "static/js/[name]-[hash].js",
