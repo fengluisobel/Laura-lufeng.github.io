@@ -14,6 +14,7 @@ export default defineConfig({
   server: {
     open: true,
   },
+  base:'/',
   plugins: [
     vue(),
     AutoImport({
