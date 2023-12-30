@@ -15,10 +15,7 @@ export default defineConfig({
     open: true,
   },
   base:"./",
-  build: {
-    // 打包文件的输出目录
-    outDir: 'docs' 
-  },
+  
   plugins: [
     vue(),
     AutoImport({
@@ -47,6 +44,7 @@ export default defineConfig({
   },
 
   build: {
+    outDir: 'docs',
     rollupOptions: {
       
       output: {
