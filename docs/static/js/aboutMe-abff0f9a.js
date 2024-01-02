@@ -1,4 +1,4 @@
-import"./vue-baa4c554.js";import{o as a,c as i,M as l,a as e,W as t}from"./@vue-3d103999.js";const g={},h=`<h1>\u{1F44B} Hi, I'm Laura Feng, a motivated data analyst. I am passionate about building models to solve problems. Relevant skills include problem solving, programming and creative thinking.</h1>
+import"./vue-a2daf982.js";import{o as a,c as i,M as l,a as e,W as t}from"./@vue-29cfe91d.js";const g={},h=`<h1>\u{1F44B} Hi, I'm Laura Feng, a motivated data analyst. I am passionate about building models to solve problems. Relevant skills include problem solving, programming and creative thinking.</h1>
 <ul>
 <li>\u{1F440} I\u2019m interested in \u2328\uFE0Fcoding | \u{1F4AA}gym and musical</li>
 <li>I'm interested in technologies for process automation such as <code>Python</code> , <code>R</code> , <code>VBA</code>, and expoloring visualization.</li>

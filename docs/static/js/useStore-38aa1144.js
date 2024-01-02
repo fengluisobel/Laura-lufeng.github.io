@@ -1,4 +1,4 @@
-import"./vue-baa4c554.js";import{b as t}from"./@vue-3d103999.js";const d={},i=`<h1>vite+vuex4.x | hooks - useStore\u5931\u6548\u89E3\u51B3</h1>
+import"./vue-a2daf982.js";import{b as t}from"./@vue-29cfe91d.js";const d={},i=`<h1>vite+vuex4.x | hooks - useStore\u5931\u6548\u89E3\u51B3</h1>
 <p>\u4ECA\u5929\u9047\u5230\u4E86\u4E2A\u8BA9\u4EBA<code>?</code>\u7684bug</p>
 <h2>\u9700\u6C42\u60C5\u666F</h2>
 <p>\u5F15\u5165<code>vuex - store</code>\uFF0C\u4F7F\u7528<code>store.dispatch</code>\u5411<code>action</code>\u6D3E\u53D1\u4EFB\u52A1</p>
