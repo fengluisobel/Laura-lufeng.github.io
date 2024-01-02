@@ -4,8 +4,28 @@ import Footer from "./views/Footer.vue";
 
 import { nextTick, onMounted, provide, ref } from "vue";
 
+import { onBeforeMount } from 'vue'
+import { useRouter } from 'vue-router'
+import { useSessionStorage } from '@vueuse/core'
+
+const router = useRouter()
+const redirect = useSessionStorage('redirect', '')
+
+
+onBeforeMount(async () => {
+  if (redirect.value) {
+    await router.push(redirect.value)
+    redirect.value = ''
+  }
+})
+
 // el-scrollbar bug:不设置height不显示 & container设置高度可显示，但无法设置height：100%
 const viewPortHeight = document.documentElement.clientHeight - 64;
+
+
+
+
+
 
 let pageScrolled = ref(false);
 let curScrollTop = ref<number>(0);
