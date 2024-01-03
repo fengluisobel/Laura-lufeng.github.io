@@ -4,13 +4,13 @@
     {
       "title": "如何使用SimilarWeb分析网站数据 update",
       "tags": ["", ""],
-      "cover": "default-js.avif",
+      "cover": "similarWebLogo.png",
       "description": "看到这个需求， 快速学习并体验一下SimilarWeb。1.有哪些功能？ 2.如何使用SimilarWeb分析网站数据 3. 我的Dashboard - Gambling/Sports Betting",
       "date": "2024-01-02",
       "name": "Decorators"
     },
     {
-      "title": "TBA - 中国打击非法博彩如何影响全球博彩市场",
+      "title": "TBA - 全球博彩市场",
       "tags": ["illegal betting", "Global Betting"],
       "cover": "default-js.avif",
       "description": "",
@@ -18,7 +18,7 @@
       "name": "String"
     },
     {
-      "title": "How Organised Crime Operates Illegal Betting,Cyber Scams and Modern Slavery in Southeast Asia - 报告总结",
+      "title": "How Organised Crime Operates Illegal Betting,Cyber Scams and Modern Slavery in Southeast Asia - section1复现练习",
       "tags": ["Modern Slavery", "Cyber Scams"],
       "cover": "vuex.jpg",
       "description": "",
