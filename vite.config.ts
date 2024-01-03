@@ -10,11 +10,12 @@ import viteCompression from "vite-plugin-compression";
 
 // https://vitejs.dev/config/
 
+// 这里看一下为什么有问题
 export default defineConfig({
   server: {
     open: true,
   },
-  base:"./",
+  base:"/",
   
   plugins: [
     vue(),
