@@ -11,6 +11,7 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.0.9",
     "@vueuse/core": "^9.1.0",
+    "echarts": "^5.4.3",
     "element-plus": "^2.2.13",
     "highlight.js": "^11.7.0",
     "sass": "^1.54.4",

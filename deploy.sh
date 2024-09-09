@@ -4,10 +4,13 @@
 set -e
 
 # 构建
+# cd C:\Users\Felicia\Documents\GitHub\Laura-lufeng.github.io\
 npm run build
 
 # cd 到构建输出的目录下 
-cd dist
+# cd dist
+cd docs
+
 
 git init
 git add -A

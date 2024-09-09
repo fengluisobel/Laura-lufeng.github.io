@@ -1,5 +1,6 @@
-# 👋 Hi, I'm Laura Feng, a motivated data analyst. I am passionate about building models to solve problems. Relevant skills include problem solving, programming and creative thinking.
+#### 👋 Hi, I’m Laura Feng, an experienced project manager with extensive knowledge in the reinsurance industry.I am a CPCU and well-versed in mainstream catastrophe risk modeling.
+#### I excel in leveraging AI-driven technologies and extensive project experience to solve problems.My skills include excellent communication, project management expertise, and proficiency in multiple programming languages.
 
-- 👀 I’m interested in ⌨️coding | 💪gym and musical
-- I'm interested in technologies for process automation such as `Python` , `R` , `VBA`, and expoloring visualization.
-- If you are interested in my blog or project, feel free to contact me through the contact details below, welcome to discuss great and interesting automation technologies. Think Big, Start Small, Learn Fast.
+- 👀 I have a strong interest in ⌨️ coding, 💪 fitness, and music. I am a regular runner and have participated in several half-marathons. My next goal is to train for and complete a full marathon.
+- I specialize in process automation using technologies such as `Python`, `R`,`VBA`, `Power BI`, and `Tableau`, and I enjoy exploring data visualization.
+- If you are interested in my blog or projects, feel free to contact me through the details below. I look forward to discussing exciting AI automation technologies with you. 

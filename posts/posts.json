@@ -1,29 +1,48 @@
 {
   "posts": [
 
+
+    {
+      "title": "Power BI 技术贴：从入门到高级 ",
+      "tags": ["Power BI", "可视化"],
+      "cover": "Power BI.jpg",
+      "description": "Power BI 是一款强大的数据可视化工具，能够帮助我们将数据转化为有价值的洞察。本文将带你从基础开始，逐步深入，掌握 Power BI 的核心功能和高级技巧。",
+      "date": "2024-09-09",
+      "name": "PowerBI Take Away"
+    },
+
+
     {
       "title": "如何使用SimilarWeb分析网站数据 update",
       "tags": ["", ""],
       "cover": "similarWebLogo.png",
       "description": "看到这个需求， 快速学习并体验一下SimilarWeb。1.有哪些功能？ 2.如何使用SimilarWeb分析网站数据 3. 我的Dashboard - Gambling/Sports Betting",
       "date": "2024-01-02",
-      "name": "Decorators"
+      "name": "SimilarWeb"
     },
     {
-      "title": "TBA - 全球博彩市场",
-      "tags": ["illegal betting", "Global Betting"],
-      "cover": "default-js.avif",
-      "description": "",
-      "date": "2023-12-31",
-      "name": "String"
-    },
-    {
-      "title": "How Organised Crime Operates Illegal Betting,Cyber Scams and Modern Slavery in Southeast Asia - section1复现练习",
-      "tags": ["Modern Slavery", "Cyber Scams"],
+      "title": "VUE3 知识点整理1 ",
+      "tags": ["Vue3", "Vite"],
       "cover": "vuex.jpg",
-      "description": "",
-      "date": "2023-12-31",
-      "name": "useStore"
+      "description": "整理一些VUE3知识备查",
+      "date": "2024-01-09",
+      "name": "VueKnowledge"
+    },
+    {
+      "title": "VUE3 知识点整理2 ",
+      "tags": ["Vue3", "Vite"],
+      "cover": "vuex.jpg",
+      "description": "整理一些VUE3知识备查",
+      "date": "2024-01-10",
+      "name": "VueKnowledge2"
+    },
+    {
+      "title": "VUE3 知识点整理3 ",
+      "tags": ["Vue3", "Vite"],
+      "cover": "vuex.jpg",
+      "description": "整理一些VUE3知识备查",
+      "date": "2024-01-10",
+      "name": "VueKnowledge3"
     }
   
   ]
